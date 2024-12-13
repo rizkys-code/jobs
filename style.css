@@ -1,0 +1,178 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.nav{
+    margin-top: 58px;
+}
+
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav .container{
+    display: flex;
+}
+.nav .brand{
+    width: 20%;
+}
+
+.nav .menu{
+    width: 60%;
+}
+
+.nav .menu-item{
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.nav .menu-item:hover {
+    opacity: 1;
+}
+
+.nav .menu-item-active{
+    opacity: 1;
+    font-weight: 600;
+    text-decoraction: none;
+}
+
+.nav .brand{
+    font-size: 22px; 
+    font-weight: 600;
+}
+
+.nav .menu{
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    gap: 50px;
+}
+
+.nav .ctas{
+    text-align: right;
+}
+
+.nav .sign-up{
+    padding: 10px 25px;
+    border: 1px solid rgba(0 , 0 , 0 , 0.2);
+    border-radius: 100px; 
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+
+}   
+
+.hero{
+    display: flex;
+    padding: 135px 0;
+    flex-direction: column;
+    gap: 15px;
+    width: 653px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero-headline,
+.hero-subheadline{
+    text-align: center;
+    margin: 0;
+}
+
+.hero-headline{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.hero-subheadline{
+    
+    font-size: 16px;
+    line-height: 32px;
+    width: 553px;
+    color: rgba(0,0,0.6)
+
+}
+
+.hero-ctas{
+    margin-top:30px;
+    display: flex;
+    gap: 20px;
+}
+
+.cta-primary{
+    background-color: #001aff;
+    color: #fff;
+    border-radius: 100px;
+    padding: 12px 17px;
+    text-decoration: none;
+    box-shadow: 0px 15px 30px rgba(0, 26, 255, 0.2);
+
+}
+
+.cta-primary,
+.cta-secondary{
+    padding: 12px 17px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta-secondary{
+    color: #001aff;
+    text-decoration: underline;
+}
+
+.jobs{
+    text-align: left;
+}
+
+.Jobs-headline{
+    font-size: inherit;
+    line-height: 24px;
+}
+
+.job-list{
+    display: flex;
+}
+
+.job{
+    width: calc(100% / 3);
+    padding: 25px;  
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 30px 60px rgba(0, 26, 255, 0.1);
+}
+
+.job-title{
+    font-size: 18px;
+    margin: 0;
+}
+
+.job-company{
+    fontsize: 14px;
+    margin: 0;   
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.job-description{
+    margin: 17px 0;   
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 20px;
+}
+
+.job-footer{
+    display: flex;
+}
+
+.job-salary{
+    margin-left: auto;
+}
+
+.job-tags{
+    padding: 5px 15px;
+    border-radius: 100px;
+}
